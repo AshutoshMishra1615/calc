@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(27, 27,27);
+}
+.container{
+    border:3px solid rgb(224, 224, 224);
+    background-color: rgb(17, 17, 17);
+    filter:drop-shadow(2px 2px 2px white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30dvw;    
+    height: 80dvh;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-top:5%;
+    padding:20px;
+
+}  
+.display{
+    background-color: whitesmoke;
+    flex:1 1 auto;
+    height: 20vw;
+    border:0px solid white;
+    border-radius:20px;
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 40px;
+    font-weight: 900;
+    padding-right:10px;
+
+} 
+.main{
+    flex:1 1 auto;  
+    height:80vw;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+    padding:20px;
+
+
+
+}
+.numbers{
+    flex:3 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    flex:auto;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: white;
+    border:1px solid black;
+    border-radius:15px;
+    flex:auto;
+    font-size: large;
+}
+.operations{
+    flex:1 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.operators{
+    flex:1 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button.equal{
+    flex:3 1 auto;
+}
+button.dot{
+    font-size: xx-large;
+}
